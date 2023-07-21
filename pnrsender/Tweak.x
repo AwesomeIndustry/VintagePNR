@@ -324,7 +324,7 @@ NSString * const ANDROID_PHONE_NUMBER = @"+11234567890";
     }
     - (NSData *) pushToken {
         NSData *origVal = %orig;
-        NSLog(@"PNRGateway: Got push token: %@", origVal);
+        NSLog(@">>>>>>>>>>>>>>>>>>>>>> PNRGateway: Push Token Received! %@", origVal);
         return origVal;
     }
     - (BOOL) canSendRegistration {
